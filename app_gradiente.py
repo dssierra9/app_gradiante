@@ -98,7 +98,7 @@ def figura_3d(historial, titulo="", elev=25, azim=-50):
                color="orange", s=90, label="Inicio", zorder=10)
     ax.scatter([historial[-1, 0]], [historial[-1, 1]], [zs_hist[-1]],
                color="lime", s=90, label="Final", zorder=10)
-    ax.scatter([0], [0], [f2(0, 0)], color="gold", edgecolor="black",
+        ax.scatter([3], [-2], [f2(3, -2)], color="gold", edgecolor="black",
                s=80, label="Mínimo global", zorder=10)
 
     ax.set_xlabel("x")
